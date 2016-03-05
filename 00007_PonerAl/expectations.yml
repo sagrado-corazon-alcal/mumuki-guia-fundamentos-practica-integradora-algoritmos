@@ -2,3 +2,5 @@
 expectations:
 - binding: PonerAl
   inspection: HasUsage:opuesto
+- binding: PonerAl
+  inspection: HasArity:2
