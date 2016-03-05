@@ -1,3 +1,5 @@
+check_head_position: true
+
 subject: PonerEnLindantes
 
 examples:
@@ -14,7 +16,7 @@ examples:
      cell 2 1 Rojo 1
      cell 0 1 Rojo 1
      cell 1 0 Rojo 1
-     head 0 0
+     head 1 1
  - arguments:
     - Verde
    initial_board: |
@@ -28,4 +30,4 @@ examples:
      cell 2 1 Verde 1
      cell 0 1 Verde 1
      cell 1 0 Verde 1
-     head 0 0     
+     head 1 1
