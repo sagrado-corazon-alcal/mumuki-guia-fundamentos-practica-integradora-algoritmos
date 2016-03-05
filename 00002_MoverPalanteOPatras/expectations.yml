@@ -6,3 +6,5 @@ expectations:
   inspection: HasUsage:hayBolitas
 - binding: MoverPalanteOPatras
   inspection: HasIf
+- binding: MoverPalanteOPatras
+  inspection: HasArity:2

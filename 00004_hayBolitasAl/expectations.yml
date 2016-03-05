@@ -2,3 +2,5 @@
 expectations:
 - binding: hayBolitasAl
   inspection: HasUsage:hayBolitas
+- binding: hayBolitasAl
+  inspection: HasArity:2

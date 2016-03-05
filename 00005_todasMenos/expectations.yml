@@ -2,3 +2,5 @@
 expectations:
 - binding: todasMenos
   inspection: HasUsage:nroBolitasCelda
+- binding: todasMenos
+  inspection: HasArity:1

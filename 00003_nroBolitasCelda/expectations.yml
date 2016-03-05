@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: nroBolitasCelda
+  inspection: HasArity:0

@@ -4,3 +4,5 @@ expectations:
   inspection: HasForeach
 - binding: PonerEnLindantes
   inspection: HasUsage:PonerAl
+- binding: PonerEnLindantes
+  inspection: HasArity:1
