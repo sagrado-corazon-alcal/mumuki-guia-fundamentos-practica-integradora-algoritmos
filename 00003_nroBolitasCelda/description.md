@@ -1,0 +1,1 @@
+Escribí la función `nroBolitasCelda()`, que indica cuántas bolitas hay en la celda actual.
