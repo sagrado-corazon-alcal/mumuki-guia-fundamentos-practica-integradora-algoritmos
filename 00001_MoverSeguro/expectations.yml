@@ -4,3 +4,5 @@ expectations:
   inspection: HasIf
 - binding: MoverSeguro
   inspection: HasUsage:puedeMover
+- binding: MoverSeguro
+  inspection: HasArity:1
