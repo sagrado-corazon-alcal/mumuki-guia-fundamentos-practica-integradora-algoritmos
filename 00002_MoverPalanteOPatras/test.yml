@@ -17,17 +17,17 @@ examples:
      size 3 3
      cell 1 1 Rojo 2
      head 1 2
- - title: 'MoverPalanteOPatras(Norte, Verde) - se mueve al Sur porque hay bolitas verdes'
+ - title: 'MoverPalanteOPatras(Norte, Verde) - se mueve al Sur porque no hay bolitas verdes'
    arguments: 
     - Norte
     - Verde
    initial_board: |
      GBB/1.0
      size 3 3
-     cell 1 1 Verde 2
+     cell 1 1 Negro 2
      head 1 1
    final_board: |
      GBB/1.0
      size 3 3
-     cell 1 1 Verde 2
-     head 1 2
+     cell 1 1 Negro 2
+     head 1 0
