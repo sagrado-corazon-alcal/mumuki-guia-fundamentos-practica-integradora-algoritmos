@@ -3,7 +3,8 @@ check_head_position: true
 subject: MoverSeguro
 
 examples:
- - arguments: 
+ - title: 'MoverSeguro(Oeste) - no se puede mover, no hace nada'
+   arguments: 
     - Oeste
    initial_board: |
      GBB/1.0
@@ -13,7 +14,8 @@ examples:
      GBB/1.0
      size 2 2
      head 0 0
- - arguments: 
+ - title: 'MoverSeguro(Sur) - hay espacio, se mueve'
+   arguments: 
     - Sur
    initial_board: |
      GBB/1.0
