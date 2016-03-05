@@ -1,0 +1,5 @@
+procedure PonerAl(dir, color) {
+  Mover(dir)
+  Poner(color)
+  Mover(opuesto(dir))
+}

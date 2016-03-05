@@ -1,0 +1,6 @@
+---
+expectations:
+- binding: PonerEnLindates
+  inspection: HasForeach
+- binding: PonerEnLindantes
+  inspection: HasUsage:PonerAl

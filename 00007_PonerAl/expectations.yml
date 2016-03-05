@@ -1,0 +1,4 @@
+---
+expectations:
+- binding: PonerAl
+  inspection: HasUsage:opuesto

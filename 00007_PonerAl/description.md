@@ -1,0 +1,1 @@
+Creá un procedimiento `PonerAl(dir, color)` que ponga una bolita en la dirección dada, dejando el cabezal donde estaba inicialmente.
