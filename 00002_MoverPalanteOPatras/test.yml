@@ -1,0 +1,33 @@
+check_head_position: true
+
+subject: MoverPalanteOPatras
+
+examples:
+ - title: 'MoverPalanteOPatras(Norte, Rojo) - se mueve al Norte porque hay bolitas rojas'
+   arguments: 
+    - Norte
+    - Rojo
+   initial_board: |
+     GBB/1.0
+     size 3 3
+     cell 1 1 Rojo 2
+     head 1 1
+   final_board: |
+     GBB/1.0
+     size 3 3
+     cell 1 1 Rojo 2
+     head 1 2
+ - title: 'MoverPalanteOPatras(Norte, Verde) - se mueve al Sur porque hay bolitas verdes'
+   arguments: 
+    - Norte
+    - Verde
+   initial_board: |
+     GBB/1.0
+     size 3 3
+     cell 1 1 Verde 2
+     head 1 1
+   final_board: |
+     GBB/1.0
+     size 3 3
+     cell 1 1 Verde 2
+     head 1 2

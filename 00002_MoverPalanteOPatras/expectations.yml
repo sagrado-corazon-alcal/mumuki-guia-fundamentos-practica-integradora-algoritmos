@@ -1,0 +1,8 @@
+---
+expectations:
+- binding: MoverPalanteOPatras
+  inspection: HasUsage:opuesto
+- binding: MoverPalanteOPatras
+  inspection: HasUsage:hayBolitas
+- binding: MoverPalanteOPatras
+  inspection: HasIf
