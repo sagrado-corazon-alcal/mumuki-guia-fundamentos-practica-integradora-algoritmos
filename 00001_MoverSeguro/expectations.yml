@@ -2,3 +2,5 @@
 expectations:
 - binding: MoverSeguro
   inspection: HasIf
+- binding: MoverSeguro
+  inspection: HasUsage:puedeMover
