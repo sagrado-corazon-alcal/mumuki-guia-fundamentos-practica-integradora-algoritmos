@@ -1,0 +1,1 @@
+Escribí la función `hayBolitasAl(dir, col)`, que devuelve verdadero si en la celda vecina a la actual en la dirección indicada hay al menos una bolita de color `col`.

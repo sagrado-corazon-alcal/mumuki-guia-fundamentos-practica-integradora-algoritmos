@@ -1,0 +1,21 @@
+subject: hayBolitasAl
+
+examples:
+ - arguments:
+    - Norte
+    - Rojo
+   initial_board: |
+     GBB/1.0
+     size 2 2
+     cell 0 1 Rojo 2
+     head 0 0
+   return: True
+ - arguments:
+    - Este
+    - Azul
+   initial_board: |
+     GBB/1.0
+     size 2 2
+     cell 0 1 Rojo 2
+     head 0 0
+   return: False
