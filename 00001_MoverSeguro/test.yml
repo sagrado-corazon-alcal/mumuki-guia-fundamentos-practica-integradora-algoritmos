@@ -3,7 +3,7 @@ check_head_position: true
 subject: MoverSeguro
 
 examples:
- - arguments: Oeste
+ - arguments: 'Oeste'
    initial_board: |
      GBB/1.0
      size 2 2
@@ -12,7 +12,7 @@ examples:
      GBB/1.0
      size 2 2
      head 0 0
- - arguments: Sur
+ - arguments: 'Sur'
    initial_board: |
      GBB/1.0
      size 2 2
